@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+}
+.active{
+    background-color: aquamarine;
+}
+
+nav img{
+    width: 150px;
+    height: 30px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    min-height: 88px;
+    margin: auto;
+    position: sticky;
+    left: 0;
+    top: 0;
+    box-shadow: rgba(40, 40 , 93 , 0.23) 0 30px 30px -20px;
+}
+.navbar  .nav-link {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    text-transform: capitalize;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #242420 ; 
+    padding: 0.7rem;
+    margin: 0 1.7rem;
+    font-size: 14px;
+    font-weight: 600;
+ 
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.Login {
+    border: 1px solid #242420;
+}
+
+@media (max-width : 480px){
+ img {
+     position: absolute;
+     top: 28px;
+     left: 25px;
+    
+    }
+    .navbar .nav-link {
+       
+        display: none;
+        flex-direction: column;
+    }
+ 
+   .nav-icons{
+        display: block;
+         position: absolute;
+         list-style: none;
+      
+        right: 20px;
+         top: 30%;
+         transition: all 0.5s ease-in-out;
+         background-color: aliceblue;
+ 
+    }
+  ul li{
+    
+        padding: 30px;
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+       margin-top: 45px;
+       margin-right: 140px;
+       height: 100%;
+
+    }
+  
+    nav ul :hover {
+      color: rgb(41, 193, 84) !important;
+    }
+nav .Login{
+    border: none;
+}
+}
+
+.bro{
+    font-size: 60px;
+    text-align: center;
+}
+
+ b {
+
+display: none;
+
+}
+.nav-icons{
+    border: none;
+    background: none;
+    font-size: 20px;
+color: #000;
+
+}
+
+
+/*Register css */
+.register-form{
+    width:  450px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.register-form h1{
+    text-align: center;
+}
+input{
+    width: 400px;
+    margin: 15px auto;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+button {
+    display: block;
+    width:  97%;
+    padding: 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.input-passwor{
+    position: relative;
+    display: flex;
+}
+.toggle-password{
+    position: absolute;
+    right: 38%;
+    top: 51%;
+}
+.Form-password-flexbox{
+    display: flex;
+}
+.toggle-password2{
+    position: absolute;
+    right: 38%;
+    top: 66%;
+}
+.Form-Checkboxx{
+   position: relative;
+   width: auto;
+   display: flex;
+   left: 20px;
+} 
+.Form-Checkboxx input[type=checkbox]{
+    position: relative;
+    right: 220px;
+    bottom: 10px;
+}
+.Form-Checkboxx  label{
+position: absolute;
+
+}
+.Detail{
+    color: #21a23b;
+}
+
+ .Form-Icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+    width: 97%;
+}
+.Form-Icons .Face{
+    border: 1px solid #21a23b;
+    padding: 10px 12px;
+    right: 15px;
+    width: 47%;
+   position: relative;
+   border-radius: 4px;
+
+}
+.link-without-underline {
+    text-decoration: none;
+    color: #2b2c2d;
+    position: absolute;
+    left: 40px;
+    top: 13px;
+  }
+p{
+   margin-left: 56px;
+   margin-bottom: 5px;
+
+}
+.Form-Icons .Google{
+    border: 1px solid #21a23b;
+    padding: 10px 12px;
+    width: 47%;
+   margin-right: 6px;
+   border-radius: 4px;
+   position: relative;
+}
+
+.link-without{
+    text-decoration: none;
+}
+
+@media (max-width : 480px) {
+    .toggle-password2{
+        position: absolute;
+        right: 12%;
+        top: 66%;
+    }
+    .toggle-password{
+        position: absolute;
+        right: 12%;
+        top: 51%;
+    }
+}
