@@ -1,3 +1,151 @@
-.title {
-    color: red
+.container-register{
+    background-image: url(https://img.freepik.com/free-photo/luxurious-car-parked-highway-with-illuminated-headlight-sunset_181624-60607.jpg?w=1060&t=st=1695812662~exp=1695813262~hmac=49e8ac300a0aab00114349679188ab94e768cb5840c025388fa7940919cfd587);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+   object-fit: fill;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.register-form{
+    width:  450px;
+    margin: 0px auto;
+    padding: 18px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.register-form h1{
+    text-align: center;
+}
+input{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+button {
+    display: block;
+    width:  97%;
+    padding: 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.input-passwor{
+    position: relative;
+    display: flex;
+}
+.toggle-password{
+    position: absolute;
+    right: 38%;
+    top: 42.5%;
+}
+.input-password{
+    margin-left: -1px;
+}
+.Form-password-flexbox{
+    display: flex;
+}
+.toggle-password2{
+    position: absolute;
+    right: 38%;
+    top: 54.5%;
+}
+.Form-Checkboxx{
+   position: relative;
+   width: auto;
+   display: flex;
+   left: 20px;
+} 
+.Form-Checkboxx input[type=checkbox]{
+    position: relative;
+    right: 220px;
+    bottom: 10px;
+}
+.Form-Checkboxx  label{
+position: absolute;
+
+}
+.Detail{
+    color: #21a23b;
+}
+
+ .Form-Icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+    width: 97%;
+}
+.Form-Icons .Face{
+    border: 1px solid #21a23b;
+    padding: 10px 12px;
+    right: 15px;
+    width: 47%;
+   position: relative;
+   border-radius: 4px;
+
+}
+.link-without-underline {
+    text-decoration: none;
+    color: #2b2c2d;
+    position: absolute;
+    left: 40px;
+    top: 13px;
+  }
+p{
+   margin-left: 56px;
+   margin-bottom: 5px;
+
+}
+.Form-Icons .Google{
+    border: 1px solid #21a23b;
+    padding: 10px 12px;
+    width: 47%;
+   margin-right: 6px;
+   border-radius: 4px;
+   position: relative;
+}
+
+.link-without{
+    text-decoration: none;
+}
+
+@media (max-width : 480px) {
+    .toggle-password2{
+        position: absolute;
+        right: 12%;
+        top: 29%;
+    }
+    .toggle-password{
+        position: absolute;
+        right: 12%;
+        top: 22.5%;
+    }
+}
+
+@media (min-width : 481px) and (max-width = 768px) { 
+    .toggle-password{
+        position: absolute;
+        right: 12%;
+        top: 29%;
+    }
+    .toggle-password2{
+        position: absolute;
+        right: 12%;
+        top: 10.5% !important;
+    }
 }

@@ -3,6 +3,7 @@ import { FaRegEyeSlash, FaEye ,FaFacebook , FaGoogle} from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import './style/register.css';
 function Register() {
+  
   const [formData, setFormData] = useState({
     PhoneNumber: "",
     ShowName: "",
@@ -41,6 +42,7 @@ function Register() {
   };
 
   return (
+    <div className="container-register">
     <form className="register-form" onSubmit={handleSubmit}>
       <h1 className="title">Đăng Ký</h1>
       <div className="Form-PhoneNumber">
@@ -130,6 +132,7 @@ function Register() {
         </div>
       </div>
     </form>
+    </div>
   );
 }
 

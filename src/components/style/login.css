@@ -1,0 +1,128 @@
+.login-form {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url(https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?w=1060&t=st=1695810535~exp=1695811135~hmac=18214dc39a1d7fe788da2055f4b40ed0cf1f8841d8abccdc1aeb16d1a529328c);
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10%;
+  }
+  .login-title{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .login-form-group{
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+  }
+  .login-form-control{
+    position: relative;
+  }
+.login-toggle-password{
+    position: absolute;
+    top: 46.5%;
+    left: 60%;
+}
+  
+ 
+  
+.login-form-control  {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 10px 0;
+  }
+  .forgot-password-title{
+    font-size: 14px;
+    float: right;
+   margin: 10px;
+
+  }
+ .login-link-title{
+    color: #01ba35;
+  }
+  .link-register{
+    color: #01ba35;
+  }
+.forgot-password-title-register {
+    font-size: 14px;
+
+    margin-left: 17%;
+}
+
+.login-form-button {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    font-size: 16px;
+    background-color: #01ba35;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  .login-Form-Icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+    width: 97%;
+  }
+  .login-Form-Icons-face{
+    border: 1px solid #21a23b;
+    padding: 10px 12px;
+    right: 10px;
+    width: 49%;
+   position: relative;
+   border-radius: 4px;
+  }
+  .login-icons-link{
+    text-decoration: none;
+    color: #2b2c2d;
+    position: absolute;
+    left: 40px;
+    top: 13px;
+  }
+  .login-Form-Icons-Google{
+    border: 1px solid #21a23b;
+    padding: 10px 12px;
+    right: 0px;
+    width: 49%;
+   position: relative;
+   border-radius: 4px;
+  }
+ .login-link-without{
+    text-decoration: none;
+ }
+
+ @media (max-width: 480px) {
+    .login-form-control{
+        position: relative;
+    }
+    .login-toggle-password{
+      position: absolute;
+     left: 80% !important;
+     top: 47.5%;
+    }
+ }
+ @media (max-width: 720px) {
+    .login-form-control{
+        position: relative;
+    }
+    .login-toggle-password{
+      position: absolute;
+     left: 70%;
+     top: 47.5%;
+    }
+ }
